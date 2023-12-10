@@ -3,7 +3,7 @@ package serializacion;
 import java.io.Serializable;
 
 //Creamos la clase Clientes e implementamos "Serializable" del paquete "java.io.Serializable"
-public class Clientes implements Serializable{
+public class Cliente implements Serializable{
 
 	 private String nif;
 	    private String nombre;
@@ -13,11 +13,11 @@ public class Clientes implements Serializable{
 
 	    
 	    // Crear un constructor vacío es una buena construmbre para evitar problemas ya que un solo constructor con parámetros, limitaría su uso.
-	    public Clientes() {
+	    public Cliente() {
 	    }
 	    
 	    // Ahora creamos un constructor con todos los parámetros
-	    public Clientes(String nif, String nombre, String telefono, String email, String direccion) {
+	    public Cliente(String nif, String nombre, String telefono, String email, String direccion) {
 	        this.nif = nif;
 	        this.nombre = nombre;
 	        this.telefono = telefono;
