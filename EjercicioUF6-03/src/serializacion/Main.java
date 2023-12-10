@@ -27,7 +27,13 @@ public class Main {
 	// Mejor dejar de usar Scanner y usar en su lugar variable = datos.readLine();
 	// porque dá menos problemas y errores... Es capaz de leer lineas enteras en
 	// lugar de solo cadena de caracteres de solo 1 palabra.
+	
 	static Scanner sc = new Scanner(System.in);
+	
+	/*
+	 * Deberíamos evitar el uso de metodos static en la medida de lo posible para no saltarnos el principio funamental
+	 * de la POO.
+	 */
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
 
