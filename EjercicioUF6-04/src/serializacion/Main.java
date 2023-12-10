@@ -11,9 +11,11 @@ public class Main {
 	    private static File f=new File("clientes.dat");
 	    private static List<Cliente> personas=new ArrayList<>();
 	    
-	    /**
-	     * @param args the command line arguments
-	     */
+	    /*
+		 * Deberíamos evitar el uso de metodos static en la medida de lo posible para no saltarnos el principio funamental
+		 * de la POO.
+		 */
+	    
 	    public static void main(String[] args) {
 	        int opcion=1;
 	        do{
